@@ -1,15 +1,18 @@
 .container{
 	background-color:#f5f5f5;
 	width:100vw;
-	justify-content:row;
+    display:flex;
+	flex-direction:row;
 }
 .header{
 	text-align:center;
 	padding:1px;
 	background-color:#011e29;
 	color:white;
-    
+	position:fixed;
 }
+
+
 .latest-news-section{
 	width:150px;
 	background-color:white;
